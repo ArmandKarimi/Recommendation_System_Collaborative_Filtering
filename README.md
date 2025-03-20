@@ -1,18 +1,18 @@
-## **📌 README.md - MovieLens Recommendation System**
+## 📌 README.md - MovieLens Recommendation System
 ```markdown
 # 🎬 MovieLens Recommendation System
 
-This is a **collaborative filtering-based recommendation system** built with **PyTorch**. It predicts user ratings for movies and recommends the best-rated movies for a given user.
+This is a Collaborative Filtering-based Recommendation System built with PyTorch. It predicts user ratings for movies and recommends the best-rated movies for a given user.
 
 ---
 
 ## 🚀 Features
 
-✅ Uses **MovieLens dataset** for movie recommendations  
-✅ Implements **Collaborative Filtering (CF) with Embeddings**  
-✅ Trains using **PyTorch** on CPU, CUDA, or Apple MPS (M1/M2 Macs)  
-✅ **RMSE Evaluation** for model performance  
-✅ **Command-line user input** for personalized recommendations  
+✅ Uses MovieLens dataset for movie recommendations  
+✅ Implements Collaborative Filtering (CF) with Embeddings
+✅ Trains using PyTorch on CPU, CUDA, or Apple MPS (M1/M2 Macs)  
+✅ RMSE Evaluation for model performance  
+✅ Command-line user input for personalized recommendations  
 
 ---
 
@@ -20,7 +20,7 @@ This is a **collaborative filtering-based recommendation system** built with **P
 
 ### **1️⃣ Clone the Repository**
 ```bash
-git clone https://github.com/your-username/movielens-recommender.git
+git clone https://github.com/ArmandKarimi/Recommendation_System_Collaborative_Filtering.git
 cd movielens-recommender
 ```
 
@@ -74,21 +74,11 @@ kaggle datasets download -d grouplens/movielens-20m-dataset --unzip -p ./data
 
 ## 🚀 Running the Model
 
-### **Train the Recommendation Model**
+### **Train & Evaluate  the Recommendation Model**
 ```bash
 python main.py
 ```
-
-### **Test the Model**
-```bash
-python main.py --test
-```
-
-### **Get Movie Recommendations for a User**
-```bash
-python main.py --recommend
-```
-Then, enter a **User ID** when prompted.
+Then, enter a **User ID** when prompted to return top 5 recommanded movies for the user.
 
 ---
 
@@ -140,5 +130,5 @@ python main.py
 
 ## 📜 License
 This project is open-source and free to use. Feel free to contribute! 🚀
-```
+
 
