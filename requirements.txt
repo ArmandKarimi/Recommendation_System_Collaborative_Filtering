@@ -1,0 +1,14 @@
+pandas
+numpy
+
+matplotlib
+seaborn
+
+kaggle
+
+
+scikit-learn
+torch
+#if using Mac
+#torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+

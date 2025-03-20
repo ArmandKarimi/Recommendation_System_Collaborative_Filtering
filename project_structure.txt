@@ -1,0 +1,19 @@
+.
+├── README.md
+├── main.py
+├── project_structure.txt
+├── requirements.txt
+└── src
+    ├── __pycache__
+    ├── config.py
+    ├── data
+    └── utils
+        ├── __init__.py
+        ├── dataset.py
+        ├── fetch_data.py
+        ├── model.py
+        ├── recommendation.py
+        ├── test_model.py
+        └── train_model.py
+
+13 directories, 53 files
