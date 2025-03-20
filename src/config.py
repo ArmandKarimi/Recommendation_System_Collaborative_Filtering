@@ -9,8 +9,8 @@ DEVICE = (
     "cpu"
 )
 
-FRACTION = 0.001
+FRACTION = 1
 
-EPOCHS = 10
+EPOCHS = 300
 N_FACTORS = 5
 
